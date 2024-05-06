@@ -1,0 +1,59 @@
+body {
+    background-color: #000; /* Pitch black background */
+  }
+  
+  #content {
+    display: flex; /* Enables flexbox for side-by-side layout */
+    margin: auto;  /* Centers the content horizontally */
+  }
+
+
+  #header {
+    display: flex; /* Enables flexbox for side-by-side layout */
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center; /* Centers the items vertically */
+}
+
+#left,
+#right{
+    margin-left: 0px;
+    margin-right: 0px;
+    flex: 1; /* Makes the three divs share the available space equally */
+}
+#logo{
+    flex: 0.5;
+}
+
+#left hr,
+#right hr {
+    width: 100%; /* Makes the horizontal rule span the full width of the div */
+}
+  
+  #text {
+    width: 300px; /* Sets width of text div */
+    color: #ddd;
+  }
+
+   
+  #logo {
+    text-align: center; /* Aligns the content (the image) to the center */
+    margin-top: 0px;
+    margin-left: 0px; /* Adds some space from the top */
+}
+
+#logo img {
+    width: 200px; /* Sets the width of the logo image to 150px */
+    height: 200px; /* Maintains the aspect ratio */
+}
+
+  
+  #vis {
+    width: 450px;
+    height: 450px; /* Sets width and height of vis div (assuming it's an image) */
+  }
+  
+  #vis img {  /* Styles the image inside the vis div (optional) */
+    width: 100%; /* Stretches image to fill the div */
+    height: 100%;
+  }
+ 
