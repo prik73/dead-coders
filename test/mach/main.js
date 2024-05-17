@@ -1,6 +1,6 @@
 import * as three from 'three';
 import { PerspectiveCamera, WebGLRenderer, PointLight, Mesh, BoxGeometry, MeshStandardMaterial } from 'three';
-import './index.css'
+import '/src/index.css'
 
 const scene = new three.Scene();
 
@@ -37,7 +37,3 @@ const renderer = new WebGLRenderer({ canvas });
 renderer.setSize(sizes.width, sizes.heigth);
 
 renderer.render(scene, camera);
-
-
-
-
